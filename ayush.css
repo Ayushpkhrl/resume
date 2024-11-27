@@ -1,0 +1,429 @@
+*{
+    scroll-behavior: smooth;
+    text-decoration: none;
+}
+
+
+.border:hover{
+    color: rgb(255, 51, 0);
+}
+.nav-bar{
+    background-color: black;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: rgba(240, 111, 111, 0.841) 0px 10px 10px -10px;
+    position: fixed;
+    width: 99%;
+    margin-top: -8px;
+    z-index: 1;
+}
+.z{
+    font-weight: bolder;
+    font-family: 'tahoma';
+    font-size: x-large;
+    color: white;
+    margin-left: 20px;
+}
+.nav-item{
+    display: flex;
+    color: aliceblue;
+    
+
+}
+.h{
+color: white;
+font-family: 'tahoma';
+font-weight: bolder;
+}
+.ab{color: white;
+    font-family: 'tahoma';
+    font-weight: bolder;
+margin-left: 40px;
+}
+.wr{color: white;
+    font-family: 'tahoma';
+    font-weight: bolder;
+margin-left: 40px;
+
+}
+.co{color: white;
+    font-family: 'tahoma';
+    font-weight: bolder;
+margin-left: 40px;
+}
+.gap{
+    width: 80px;
+}
+#home{
+    background-color: rgb(0, 0, 0);
+    height: 40vw;
+    padding-top: 230px;
+    }
+
+.hero{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.hlo{
+    color: white;
+    font-family:popins,sans-serif ;
+    font-weight: bolder;
+    size: 60px;
+}
+.im{
+    color: white;
+    font-family: popins,sans-serif ;
+    font-size: xx-large;
+    font-weight: 1000;
+}
+.name{
+    color: red;
+    font-family:popins,sans-serif ;
+    font-weight: 1000;
+    font-size: xx-large;
+    
+}
+.tab{
+    
+    width: 10px;
+    
+}
+.para{
+    display: flex;
+}
+.wd{
+    color: rgb(255, 255, 255);
+    font: bolder;
+    font-size: xx-large;
+    font-family: 'tahoma';
+}
+.we{
+    text-decoration: none;
+    color: white;
+    height: 50px;
+    font-size: xx-large;
+    padding-left: 7px;
+}
+.mail{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: large;
+    font-weight: bolder;
+    font-family: 'tahoma';
+   
+}
+.bu{
+    background-color: rgb(244, 8, 8);
+    color: rgb(6, 6, 6);
+    text-decoration: none;
+    border: none;
+    margin-top: 10px;
+}
+img{
+    height: 300px;
+    box-shadow: 50px 50px rgb(234, 43, 4);
+    animation-name: ayu;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+@keyframes ayu {
+  from{ 
+   padding-top: 10px; 
+
+  }
+  to{
+   padding-bottom: -10px;
+    
+  }
+}
+#abt{
+    padding-top: 130px;
+    height: 75vw;
+    background-color: rgb(1, 1, 1);
+    color: white;
+}
+.topic{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bolder;
+    font-family: 'tahoma';
+    color: rgb(255, 28, 28);
+}
+.lu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    height: 300px;
+    width: 90vw;
+    background-color: #162c4e;
+    text-align:justify;
+    font-family: 'tahoma';
+    line-height: 1.7;
+    align-items: center;
+    
+}
+.gdulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.golo{
+    height: 30px;
+    width: 89.7vw;
+    background-color: #020202;
+    
+}
+.sgolo{
+    background-color: #162c4e;
+    height: 30px;
+    width: 50;
+    transform: rotate(-52deg);
+    margin-top: -26px;
+    z-index: -1;
+}
+.ass{
+    margin: 20px;
+}
+
+#wrk{
+    height: 50vw ;
+    background-color: black;
+}
+.pabout{
+    height: 150px;
+    display: flex;
+    align-items: center;
+    margin-left: 47px;
+}
+.lero{
+    border-radius: 50%;
+    box-shadow: none;
+    height: 150px;
+    border: 6px solid aqua;
+    animation: none;
+    
+}
+.pname{
+    margin-left: 9px;
+    font: "tahoma";s
+    color: white;
+}
+.plearn{
+     margin-left: 9px;
+     font: "tahoma";
+}
+@media only screen and (max-width: 900px){
+    .nav-bar{
+        background-color: black;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        box-shadow: rgba(240, 111, 111, 0.841) 0px 10px 10px -10px;
+        position: fixed;
+        width: 99%;
+        margin-top: -9px;
+        z-index: 1;
+    }
+
+    .z{
+        font-weight: bolder;
+        font-family: 'tahoma';
+        font-size: large;
+        color: rgb(250, 250, 250);
+        margin-left: 20px;
+    }
+    .nav-item{
+        display: flex;
+    
+    }
+    .h{
+        color: white;
+font-family: 'tahoma';
+font-weight:lighter;
+        
+    }
+.ab{
+    color: white;
+    font-family: 'tahoma';
+    font-weight: lighter;
+
+}
+.wr{
+    color: white;
+font-family: 'tahoma';
+font-weight: lighter;
+}
+.co{
+    color: white;
+font-family: 'tahoma';
+font-weight: lighter;
+margin-right: 6px;
+}
+.gap{
+    display: none;
+}
+#home{
+    background-color: rgb(0, 0, 0);
+    height: 40vw;
+    padding-top: 230px;
+    }
+
+.hero{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.hlo{
+    color: white;
+    font-family:popins,sans-serif ;
+    font-weight: lighter;
+    size: 60px;
+}
+.im{
+    color: white;
+    font-family: popins,sans-serif ;
+    font-size: large;
+    font-weight: 1000;
+}
+.name{
+    color: red;
+    font-family:popins,sans-serif ;
+    font-weight: 1000;
+    font-size: large;
+    
+}
+.tab{
+    
+    width: 10px;
+}
+.para{
+    display: flex;
+}
+.wd{
+    color: rgb(255, 255, 255);
+    font: bolder;
+    font-size: large;
+    font-weight: 1000;
+    font-family: 'tahoma';
+}
+.we{
+    text-decoration: none;
+    color: white;
+    height: 50px;
+    font-size: xx-large;
+    padding-left: 7px;
+}
+.mail{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: large;
+    font-weight: bolder;
+    font-family: 'tahoma';
+   
+}
+.bu{
+    background-color: rgb(244, 8, 8);
+    color: rgb(6, 6, 6);
+    text-decoration: none;
+    border: none;
+    margin-top: 10px;
+}
+img{
+    height: 150px;
+    box-shadow: 2cqb 50px rgb(255, 44, 2);
+    animation-name: ayu;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+#abt{
+    padding-top: 130px;
+    height: 150vw;
+    background-color: rgb(1, 1, 1);
+    color: white;
+}
+.topic{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+    font-family: 'tahoma';
+    color: rgb(255, 28, 28);
+}
+.lu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    height: 500px;
+    width: 90vw;
+    background-color: #162c4e;
+    text-align:justify;
+    font-family: 'tahoma';
+    line-height: 1.7;
+    align-items: center;
+}
+.gdulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.golo{
+    height: 30px;
+    width: 89.7vw;
+    background-color: #020202;
+    
+}
+.sgolo{
+    background-color: #162c4e;
+    height: 30px;
+    width: 50;
+    transform: rotate(-52deg);
+    margin-top: -26px;
+    z-index: -1;
+}
+.ass{
+    margin: 20px;
+}
+
+#wrk{
+    height: 50vw ;
+    background-color: black;
+}
+.pabout{
+    height: 150px;
+    display: flex;
+    align-items: center;
+    margin-left: 47px;
+}
+.lero{
+    border-radius: 50%;
+    box-shadow: none;
+    height: 100px;
+    border: 6px solid rgb(0, 0, 0);
+    animation: none;
+    
+}
+.pname{
+    margin-left: 9px;
+    font: 'tahoma';
+    color: white;
+}
+.plearn{
+     margin-left: 9px;
+     font: 'tahoma';
+}
+
+
+
+}
+
